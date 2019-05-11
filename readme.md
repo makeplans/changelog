@@ -1,5 +1,11 @@
 # MakePlans Changelog
 
+2019-05-02
+
+* Service length (example: 45 mins.) is now shown along with title and price on the booking site.
+* Forgot password function was case-sensitive resulting in some problems for users who had entered uppercase in their email. This is now fixed.
+* The input for two factor authentication code is now focused when loading the page to save you a click.
+
 2019-04-25
 
 * Much faster generation of available times for accounts with many bookings.
