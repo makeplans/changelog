@@ -1,5 +1,9 @@
 # MakePlans Changelog
 
+2019-05-15
+
+* Added domain, address, email, phone_number and currency attributes to be used in custom messages for account.
+
 2019-05-02
 
 * Service length (example: 45 mins.) is now shown along with title and price on the booking site.
