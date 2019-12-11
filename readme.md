@@ -1,5 +1,9 @@
 # MakePlans Changelog
 
+2019-12-11
+
+* Added functionality for cancelling bookings for customer on booking site. Cancellation period rules can be set on the booking site settings.
+
 2019-11-25
 
 * Fix error with iCalendar attachment when booking is not booked with any service (booking made by administrator).
