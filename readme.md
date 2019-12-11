@@ -1,5 +1,9 @@
 # MakePlans Changelog
 
+2019-11-25
+
+* Fix error with iCalendar attachment when booking is not booked with any service (booking made by administrator).
+
 2019-11-07
 
 * 'My page' on the booking site now supports email login as well.
