@@ -1,5 +1,44 @@
 # MakePlans Changelog
 
+2020-02-26
+
+* Custom data for all objects (booking, resource, service, category) is now shown on the info page for each object.
+
+2020-02-17
+
+* Fix validation bug where validation when a new customer was stored with local phone number and an existing customer had same phone number but already stored in full e.164 format. This caused errors such as 'invalid customer' when saving a new booking.
+
+2020-02-15
+
+* Autocomplete hints for passwords in forms.
+
+2020-02-10
+
+* Liquid output of event title now gives full title including service title. Title for the individual event is available using 'event.event_title'.
+* Fix bug that did not convert date of birth to local date format when merging two customers.
+* Cancelling booking at the payment step did previously not delete the booking but left it at a incomplete state (awaiting_payment) for it to be expired at a later time. This is now fixed and the booking is deleted immediately.
+
+2020-02-07
+
+* Total purchase price is shown when buying SMS in bulk.
+
+2020-02-05
+
+* Disable browser autocomplete for unique fields such as phone number and email.
+* Fix double form submit bug when creating new customer via new booking page.
+
+2020-02-03
+
+* Fix availability bug when opening hours spanned over multiple days
+
+2020-01-28
+
+* Showing booking count in admin notification email.
+
+2020-01-22
+
+* Added booking count to custom form.
+
 2019-12-11
 
 * Added functionality for cancelling bookings for customer on booking site. Cancellation period rules can be set on the booking site settings.
