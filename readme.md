@@ -1,5 +1,60 @@
 # MakePlans Changelog
 
+
+2020-05-06
+
+* Added mail notification for a specific resource so you can be notified for new bookings for only resource (before all new bookings were sent to the account mail notification address).
+* You can now add a custom order reference to the MakePlans invoice we generate for your account.
+
+2020-05-03
+
+* Payment Request API supported for Stripe payments. Customers can now pay with cards added to their browser.
+
+2020-04-30
+
+* Added security.txt for responsible disclosure.
+
+2020-04-24
+
+* 'Remember me' is now limited to 2 months. Before it would not expire.
+
+2020-04-23
+
+* Logged in sessions will be reset when password is changes. So you need to login again on other devices when you change your password.
+* Now required to verify with password to disable two factor authentication.
+
+2020-04-20
+
+* Added Czech locale for the booking site.
+
+2020-04-05
+
+* Control whether email notification for a new booking is sent to admin in the administration system.
+
+2020-04-04
+
+* Added sender info setting for outgoing emails so you can specify a different sender than the account email.
+* Added css body class indication for each specific page on the booking site.
+
+2020-04-03
+
+* Icalendar attachment is now included in the admin notification email.
+
+2020-04-02
+
+* Improved validation of date of birth for customer.
+* Added phone number validation for customers added via administration system.
+* Added validation for Norwegian fødselsnummer (social security number) on the booking site.
+
+2020-03-16
+
+* Added functionality to send SMS to all customers.
+
+2020-03-10
+
+* Added beta support for Vipps payments for Norwegian clients.
+* Previously confirmation emails was not send when a booking was done without a service. Now a confirmation email is sent.
+
 2020-02-26
 
 * Custom data for all objects (booking, resource, service, category) is now shown on the info page for each object.
