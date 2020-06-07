@@ -1,5 +1,29 @@
 # MakePlans Changelog
 
+2020-06-04
+
+* Added setting to not include iCalendar attachment in booking emails.
+
+2020-06-03
+
+* App secret is generated and used for verifying payloads from MakePlans in webhooks. Available under account settings.
+
+2020-05-27
+
+* Added Zoom integration.
+
+2020-05-24
+
+* Automatic purge data. You can set a relative date for purging private data (customers and bookings).
+
+2020-05-20
+
+* Design template 'Warsaw' is now deprecated.
+* Updates to a booking now triggers a new appointment URL in Confrere.
+
+2020-05-18
+
+* User permissions is now available. As an administrator you can set access roles for other users.
 
 2020-05-06
 
