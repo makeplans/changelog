@@ -1,5 +1,18 @@
 # MakePlans Changelog
 
+2020-06-17
+
+* Added setting for hiding service from the booking site.
+
+2020-06-14
+
+* When creating new booking the resources connected to a service will be highlighted in the drop-down. It is still possible to select any resource but it is now easier to see the most relevant.
+* Merging of two customers can now be done based on national id number. Previously it was only possible based on email and phone number.
+
+2020-06-09
+
+* Deleted customer will now be reactivated when trying to create a new customer with the same email or phone number.
+
 2020-06-04
 
 * Added setting to not include iCalendar attachment in booking emails.
