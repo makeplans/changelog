@@ -1,5 +1,43 @@
 # MakePlans Changelog
 
+2020-11-18
+
+* Added Polish language support on the booking site.
+
+2020-11-09
+
+* Added slot availability metadata in HTML data attributes on the booking site.
+
+2020-10-29
+
+* Service and event description page on the booking site.
+* Added description (from service or event) to the Liquid booking info for use in outgoing messages.
+
+2020-10-28
+
+* Fixed bug: occupied appointment in calendar would not block availability when resource had capacity larger than 1.
+
+2020-09-30
+
+* Added invoiced_at as a field in the bookings CSV export.
+
+2020-09-13
+
+* Added event description to custom messages event object.
+* Added event description to iCalendar description field.
+
+2020-09-11
+
+* Added title to booking.
+
+2020-09-09
+
+* Updated calendar with new look and performance improvements.
+
+2020-08-20
+
+* Added support to do refunds with Vipps-integration.
+
 2020-06-17
 
 * Added setting for hiding service from the booking site.
