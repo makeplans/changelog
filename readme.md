@@ -1,5 +1,13 @@
 # MakePlans Changelog
 
+2020-12-02
+
+* Check and require valid ISO 3166-1 alpha-2 country code for person.
+
+2020-11-28
+
+* Added ability to specify time between available slots instead of being just based on service length.
+
 2020-11-18
 
 * Added Polish language support on the booking site.
