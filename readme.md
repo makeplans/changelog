@@ -1,5 +1,29 @@
 # MakePlans Changelog
 
+2021-01-21
+
+* Use of Stripe without our Stripe Connect integration is deprecated due to security concerns. We no longer store Stripe secret keys as a result of this change.
+* You can now refund the paid amount for a booking using Stripe.
+
+2021-01-15
+
+* SMS reminders are now sent for last minute bookings.
+
+2021-01-14
+
+* Support for RTL-languages.
+* Added Hebrew.
+* Added RFC pagination HTTP headers.
+
+2021-01-13
+
+* Added Bahasa Malayu.
+
+2021-01-07
+
+* Added Spanish locale.
+* Added Danish locale.
+
 2020-12-02
 
 * Check and require valid ISO 3166-1 alpha-2 country code for person.
