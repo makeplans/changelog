@@ -1,5 +1,9 @@
 # MakePlans Changelog
 
+2021-01-25
+
+* Added Sendy integration.
+
 2021-01-21
 
 * Use of Stripe without our Stripe Connect integration is deprecated due to security concerns. We no longer store Stripe secret keys as a result of this change.
