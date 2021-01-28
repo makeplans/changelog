@@ -1,5 +1,9 @@
 # MakePlans Changelog
 
+2021-01-26
+
+* CSV-export now use regional delimiter.
+
 2021-01-25
 
 * Added Sendy integration.
