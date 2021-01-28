@@ -1,5 +1,10 @@
 # MakePlans Changelog
 
+2021-01-28
+
+* Added GUI for managing webhooks - no need to contact support for this.
+* Possible to disable the API.
+
 2021-01-26
 
 * CSV-export now use regional delimiter.
