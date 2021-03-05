@@ -1,5 +1,23 @@
 # MakePlans Changelog
 
+2021-02-22
+
+* Added more advanced messaging with message templates. You can now send multiple reminders and follow up messages after a booking.
+
+2021-02-08
+
+* Added support for Apple Pay when using Stripe.
+* Added support for payment request API (stored cards in browser) when using Stripe.
+
+
+2021-02-07
+
+* You can now see which user that performed the action in the booking log.
+
+2021-02-02
+
+* XML support in the API is deprecated.
+
 2021-01-28
 
 * Added GUI for managing webhooks - no need to contact support for this.
