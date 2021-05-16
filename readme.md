@@ -1,5 +1,28 @@
 # MakePlans Changelog
 
+2021-04-04
+
+* Added Russian localisation.
+* Added Latvian localisation.
+
+2021-03-23
+
+* CSV export will now include custom fields for related objects.
+
+2021-03-18
+
+* No longer tracking users with Google Analytics.
+* Email opening is no longer tracked (for example booking confirmation emails).
+
+2021-03-02
+
+* Added terms and conditions on the booking site. Can be shown in the booking form and make it required to accept before making a booking request.
+
+2021-02-23
+
+* Added French localisation.
+* Added wildcard in webhook events.
+
 2021-02-22
 
 * Added more advanced messaging with message templates. You can now send multiple reminders and follow up messages after a booking.
