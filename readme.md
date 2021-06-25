@@ -1,5 +1,44 @@
 # MakePlans Changelog
 
+2021-06-25
+
+* It is now possible to save a card when paying for a booking using Stripe. The saved card can be reused for next booking. The customer can also add and remove stored cards on their profile.
+
+2021-06-22
+
+* Added Zoom host start url. The Zoom meeting can now be started by clicking 'Start Zoom meeting' on the booking.
+* The event signup form count drop down is now reflected on real time availability. Previously it would give the customer option to select max number attendees but will now be limited to available spots on the event.
+* We now send opt-out header for FLoC to Google
+* Failed card charges for billing will now be notified to your account email as well as your billing email.
+
+2021-05-28
+
+* Email is sent to customer for recurring bookings with a list of all bookings.
+
+2021-05-26
+
+* Added exports for various booking states - all bookings, active bookings, including cancelled bookings.
+
+2021-05-25
+
+* SMS notification is now sent for booking approvement requests.
+
+2021-05-22
+
+* When changing password other sessions will be logged out.
+
+2021-05-10
+
+* All emails are now sent with sender on bookingbot.makeplans.net
+
+2021-05-06
+
+* Added BestRx integration
+
+2021-04-08
+
+* You will have to login after password reset to ensure 2FA is completed.
+
 2021-04-04
 
 * Added Russian localisation.
