@@ -1,5 +1,48 @@
 # MakePlans Changelog
 
+
+2022-03-03
+
+* Custom text to display to user when there is no availability on the booking site.
+
+2021-12-25
+
+Æ Added Whereby integration
+
+2021-11-13
+
+* Support for SMS notification phone number per resource
+
+2021-11-04
+
+* We are now makeplans.com
+* robot@booking.makeplans.com is now used as mailer sender address.
+* Stripe secret key is now no longer used, we only use OAuth token (Was not possible to use at the time we released the Stripe integration).
+
+2021-11-04
+
+* Booking notes are now showin the calendar preview
+
+2021-09-05
+* Show Zoom join url for event
+
+2021-09-05
+* Add support for individual Zoom links (paid plan required)
+
+2021-08-05
+
+* Emails are now sent to the customer after an event is changed or cancelled.
+* Fixed bug so that SMS reminder time is changed when event time is changed.
+* Web-hook event-delete is triggered.
+
+2021-08-02
+
+* Add custom text to display when the user is waiting for confirmation for a booking.
+
+2021-07-05
+
+* Added Notion integration.
+
 2021-06-25
 
 * It is now possible to save a card when paying for a booking using Stripe. The saved card can be reused for next booking. The customer can also add and remove stored cards on their profile.
