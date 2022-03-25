@@ -7,7 +7,7 @@
 
 2021-12-25
 
-Æ Added Whereby integration
+* Added Whereby integration
 
 2021-11-13
 
