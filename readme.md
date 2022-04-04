@@ -1,6 +1,18 @@
 # MakePlans Changelog
 
 
+2022-04-04
+
+* Added support for multiple payment providers. When multiple payment providers is configured the customer can choose which payment provider to use.
+
+2022-03-25
+
+* The 24SevenOffice integration now supports price calculation for booking multiple slots.
+
+2022-03-25
+
+* You can now easily see and copy the secret in addition to scanning the QR code when activating 2FA.
+
 2022-03-03
 
 * Custom text to display to user when there is no availability on the booking site.
