@@ -1,5 +1,8 @@
 # MakePlans Changelog
 
+2022-04-06
+
+* A customer can now make a booking for other people, for example a parent can make bookings for their children.
 
 2022-04-04
 
