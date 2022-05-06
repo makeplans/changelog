@@ -1,5 +1,21 @@
 # MakePlans Changelog
 
+2022-05-03
+
+* Option to show availability for each slot/event on the booking site.
+
+2022-04-28
+
+* Saving an object with custom data keys that is not present in the custom form will now be kept. Previously such values were discarded.
+
+2022-04-20
+
+* Option to save billing details to Stripe.
+
+2022-04-16
+
+* Customers are now automatically saved to Stripe. Optional setting to disable this behaviour.
+
 2022-04-06
 
 * A customer can now make a booking for other people, for example a parent can make bookings for their children.
