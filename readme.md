@@ -1,5 +1,38 @@
 # MakePlans Changelog
 
+2022-08-09
+
+* Output JSON-LD Schema.org for events and services.
+
+2022-07-28
+
+* Whereby integration now can show Whereby meetings embedded in MakePlans.
+
+2022-07-15
+
+* Support for getting current locale in Liquid rendering
+
+2022-07-11
+
+* Localised CSV exports for date and time formatting. Previously it was ISO8601 it is now in local format to avoid Microsoft Excel parsing issues (please support international standards Microsoft).
+
+2022-06-22
+
+* Support language pr user on the booking site. Visitors can choose language and language is saved to the customer for next visit.
+
+2022-06-12
+
+* Automatic SSL certificates for your custom domain. Just point your DNS to us and we handle the rest.
+* New option to restrict bookings on the booking site to only existing customers.
+
+2022-05-24
+
+* Option to automatically create order in 24SevenOffice. Previously this was a manual process.
+
+2022-05-04
+
+* Able to refund Stripe payment from booking page.
+
 2022-05-03
 
 * Option to show availability for each slot/event on the booking site.
