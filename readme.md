@@ -1,5 +1,15 @@
 # MakePlans Changelog
 
+2022-10-24
+
+* Support for custom display of events in the calendar. Use Liquid to add the information you want for an event shown in the calendar.
+
+* All third party newsletter subscriptions now require concent from the customer. Automatically added when using the standard booking form but for custom forms use {% opt_in_marketing %}.
+
+2022-09-23
+
+* It is now possible to specify booking params in a link to the booking site. So from your website you can for example specify the name of the person booking and saved then used in the booking form.
+
 2022-08-09
 
 * Output JSON-LD Schema.org for events and services.
