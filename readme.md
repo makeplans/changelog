@@ -12,7 +12,7 @@
 
 * Support for custom display of events in the calendar. Use Liquid to add the information you want for an event shown in the calendar.
 
-* All third party newsletter subscriptions now require concent from the customer. Automatically added when using the standard booking form but for custom forms use {% opt_in_marketing %}.
+* All third party newsletter subscriptions now require concent from the customer. Automatically added when using the standard booking form but for custom forms use \{% opt_in_marketing %}.
 
 2022-09-23
 
