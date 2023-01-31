@@ -1,5 +1,13 @@
 # MakePlans Changelog
 
+2022-12-28
+
+* For easier creation of many resources you can now clone an existing resource. Please note that provided services are not included in the clone.
+
+2022-12-27
+
+* Add custom sender SMS id (paid addon).
+
 2022-10-24
 
 * Support for custom display of events in the calendar. Use Liquid to add the information you want for an event shown in the calendar.
