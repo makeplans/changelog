@@ -1,5 +1,14 @@
 # MakePlans Changelog
 
+2023-02-08
+
+* Fix performance issues of large CSV exports.
+* CSV export files are now stored privately on AWS S3 instead of attached in the export email. The link to download the file is only accessible for 15 minutes after the export is generated.
+
+2023-01-31
+
+* Fix Stripe descriptor statement for accounts with long name which caused transactions to fail.
+
 2022-12-28
 
 * For easier creation of many resources you can now clone an existing resource. Please note that provided services are not included in the clone.
