@@ -1,5 +1,34 @@
 # MakePlans Changelog
 
+2023-06-30
+
+* We now allow JavaScript using a Liquid tag on the booking site.
+
+2023-06-14
+
+* CSP now requies iframe or xhr usage to be whitelisted with URL.
+
+2023-06-10
+
+* You can now send from your own email address by verifying your email domain.
+
+2023-04-11
+
+* Implemented Content Security Policy.
+
+2023-02-22
+
+* Added custom ical summary and description text using Liquid
+* Added url for booking ical location
+
+2023-02-18
+
+* Send cancellation notification to booked resource.
+
+2023-02-16
+
+* Send modification notification to booked resource.
+
 2023-02-08
 
 * Fix performance issues of large CSV exports.
