@@ -1,5 +1,42 @@
 # MakePlans Changelog
 
+
+2023-12-19
+
+* Fix issue with sorting events when printing the calendar.
+
+2023-11-29
+
+* We now require password of at least 8 characters (nist recommendation).
+
+2023-11-21
+
+* Added setting to disable including iCalendar attachment to avoid PII being sent via email.
+
+2023-11-20
+
+* Added custom text when sending mail notification to a user for modification and cancellation.
+
+2023-11-15
+
+* Recurring events now support RDATE/EXDATE iCalendar properties.
+
+2023-11-06
+
+* New default for busy bookings set to 1 hour duration. Previously there was no duration.
+
+2023-09-18
+
+* You can now add a custom reservation form pr service.
+
+2023-08-27
+
+* Added support for using your Plausible Analytics account on the booking site.
+
+2023-07-11
+
+* Updated Google Analytics to version 4 (GTAG) on the booking site. Note: we do not use GA, we offer it as an option to use your own GA account on the booking site.
+
 2023-06-30
 
 * We now allow JavaScript using a Liquid tag on the booking site.
