@@ -1,5 +1,33 @@
 # MakePlans Changelog
 
+2024-04-15
+
+* Add Italian locale for booking site.
+
+2024-03-21
+
+* New booking site template: Lviv (Slava Ukraini).
+
+2024-03-16
+
+* Event check in for attendees.
+
+2024-03-07
+
+* New booking site template: Timisoara.
+
+2024-01-21
+
+* Added coupon codes for discounts.
+
+2024-01-13
+
+* All changes and actions are now automatically logged and includes metadata for who and how performed the action.
+* Added function to change time zone and automatically updated all booking times.
+
+2023-12-28
+
+* A deleted person can now be undeleted.
 
 2023-12-19
 
