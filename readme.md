@@ -1,5 +1,19 @@
 # MakePlans Changelog
 
+
+2024-08-06
+
+* Added list view for design themes Lviv and Timisoara.
+
+2024-07-15
+
+* Released partner API.
+
+2024-07-12
+
+* Whereby Embedded integration.
+* Add video_url for custom messages.
+
 2024-04-15
 
 * Add Italian locale for booking site.
