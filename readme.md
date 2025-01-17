@@ -1,6 +1,26 @@
 # MakePlans Changelog
 
 
+2025-01-16
+
+* It is now not possible to modify the service for appointments marked as 'busy' as this caused some confusion (it was not intented to have a service for non-customer appointments and it serves no purpose).
+
+2024-11-13
+
+* Fix bug for availability when using fixed slots and the current time was after the first opening hour for today.
+
+2024-08-27
+
+* Verification SMS is now sent using a low-cost provider from a fixed number instead of 'MakePlans'.
+
+2024-08-14
+
+* Integration Confrere is removed because it no longer exists.
+
+2024-08-13
+
+* Preview for custom forms/messages and natural language date input.
+
 2024-08-06
 
 * Added list view for design themes Lviv and Timisoara.
