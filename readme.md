@@ -1,6 +1,14 @@
 # MakePlans Changelog
 
 
+2025-07-08
+
+* Added setting to ignore form requirements for existing customers.
+
+2025-05-13
+
+* Ability to show slots from the past to indicate when resource was unavailable.
+
 2025-01-16
 
 * It is now not possible to modify the service for appointments marked as 'busy' as this caused some confusion (it was not intented to have a service for non-customer appointments and it serves no purpose).
