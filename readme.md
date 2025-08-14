@@ -1,6 +1,19 @@
 # MakePlans Changelog
 
 
+2025-08-13
+
+* Ensure it is not possible to select disabled slots on the booking site when showing slots in the past.
+
+2025-08-12
+
+* The service setting for blocking resource will now only return slots that are fully available.
+This makes it possible to for example have a sauna available for both private and drop-in booking, where the service for private booking will require the resource to be empty when booking a slot.
+
+2025-07-31
+
+* Fixed bug which led to drop-in bookings for more than 1 person were counted as 1 when returning available slots.
+
 2025-07-08
 
 * Added setting to ignore form requirements for existing customers.
