@@ -1,5 +1,30 @@
 # MakePlans Changelog
 
+2025-09-11
+
+* Next available date is listed in the sidebar when creating a new booking.
+
+* Fix bug that made it possible to set empty opening hours, leading to error on the booking site.
+
+* Fix bug that blocked the resource for bookings without a service.
+
+* Added duration display in the timepicker for end time when creating a new booking.
+
+2025-09-08
+
+* Added FrontGo as payment provider.
+
+2025-08-29
+
+* It is now possible for the customer to reschedule their appointment (within cancellation period).
+
+2025-08-25
+
+* Added functionality for adjusting opening hours per provider on a service.
+
+2025-08-21
+
+* Added option for priority strategy on a service. A provider was previously picked by random, new strategies include order and weight.
 
 2025-08-13
 
