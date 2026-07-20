@@ -1,5 +1,169 @@
 # MakePlans Changelog
 
+2026-07-18
+
+* Added targeted SMS: send SMS to customers filtered by service, date and booking status. Messages support Liquid tags for personalization with a live preview.
+
+2026-07-09
+
+* Added Vipps payment requests.
+
+2026-07-08
+
+* Custom text can be added to payment request SMS and email.
+
+* Fix bug where custom text for the awaiting confirmation SMS was ignored.
+
+2026-07-03
+
+* Upgraded the calendar in manage with improved design and mobile support.
+
+* Resource colors are now shown in the calendar filter dropdown.
+
+2026-06-30
+
+* Customers can now pay for confirmed or completed bookings themselves from the booking site.
+
+2026-06-24
+
+* Added refund support for orders.
+
+2026-06-18
+
+* Day booking now displays overnight stays and uses month view.
+
+2026-06-15
+
+* New phone number input with country selector on all phone fields.
+
+2026-06-03
+
+* Added dictation to booking and customer notes fields.
+
+2026-05-11
+
+* Customers must complete missing profile details before paying with Vipps or FrontGo.
+
+2026-05-04
+
+* Added setting on message templates to skip sending if the booking time has passed.
+
+2026-04-30
+
+* Existing customers can now be linked as children to another customer in manage.
+
+2026-04-12
+
+* Support new 2032-format Norwegian national ID numbers.
+
+2026-04-09
+
+* Added settings for disabling the manual confirmation message. Email is now always sent unless disabled.
+
+2026-03-28
+
+* API: gift card output now includes person_id and purchased_by_person_id.
+
+2026-03-25
+
+* Added language switcher to the booking site.
+
+2026-03-18
+
+* Added Klaviyo integration.
+
+* Added coupon support to checkout.
+
+2026-03-14
+
+* Customers can now edit their profile on the booking site.
+
+2026-03-12
+
+* Added FrontGo as payment provider for orders.
+
+2026-02-21
+
+* ID-porten and Vipps Login can now be used as verification methods in Norway.
+
+2026-02-17
+
+* Added tool for moving bookings between resources.
+
+2026-02-09
+
+* Removed integrations Dokus, iZettle and Fakturo. RIP.
+
+2026-02-03
+
+* Custom forms now support the person object in Liquid tags, and a new terms tag was added.
+
+2026-01-31
+
+* Norwegian national ID numbers are now validated, and date of birth is set automatically from the national ID number.
+
+2026-01-23
+
+* Users now receive an email notification when their email address is changed.
+
+2026-01-21
+
+* It is now possible to book on behalf of others, such as children, on the booking site.
+
+2026-01-16
+
+* Added standalone categories, works as standalone services which are only available via direct link.
+
+2026-01-12
+
+* Added gift cards and products: sell gift cards on the booking site with a cart and checkout flow. Payment with Stripe, Vipps or FrontGo. Gift cards can be redeemed at checkout and are listed on the customer profile.
+
+2025-12-10
+
+* Added room display: a public screen for a resource showing today's bookings, accessible with a token.
+
+2025-11-20
+
+* Added credit card management and customer details to profile pages on the booking site.
+
+2025-11-07
+
+* Added day booking: services can be booked per day, including multiple days.
+
+* Added standalone services.
+
+2025-10-16
+
+* API: bookings now include booked_by_person_id.
+
+2025-10-08
+
+* Added message to customer when booking is awaiting confirmation (opt-in per account).
+
+2025-10-06
+
+* Number of available slots is shown per date on the booking site.
+
+2025-10-05
+
+* Added cancellation settings for services and events.
+
+2025-10-01
+
+* Services can now be ordered within categories.
+
+2025-09-26
+
+* Added Bento integration.
+
+2025-09-24
+
+* Added British English (en-GB) locale.
+
+2025-09-14
+
+* Added refund support for FrontGo.
+
 2025-09-11
 
 * Next available date is listed in the sidebar when creating a new booking.
