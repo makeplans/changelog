@@ -1,5 +1,33 @@
 # MakePlans Changelog
 
+2026-08-15
+
+* Added MCP server: connect AI assistants such as Claude to MakePlans to find available slots, create and manage bookings, and look up customers.
+
+2026-08-14
+
+* The booking form in manage now uses the custom booking form for the selected service.
+
+2026-08-13
+
+* The new event form now prefills capacity and booking limits from the service defaults, and suggests a booking window based on your previous events. For recurring events the booking window is adjusted per occurrence.
+
+2026-08-12
+
+* Added waitlist for events: customers can join a waitlist when an event is fully booked and get notified when a spot becomes available. Waitlisted attendees are shown on the event page in manage.
+
+2026-08-10
+
+* Added Albanian locale.
+
+2026-08-06
+
+* Added Unloc integration: door keys are automatically issued to the customer when booking a resource with an Unloc lock, and revoked on cancellation.
+
+2026-07-20
+
+* Added German locale.
+
 2026-07-18
 
 * Added targeted SMS: send SMS to customers filtered by service, date and booking status. Messages support Liquid tags for personalization with a live preview.
