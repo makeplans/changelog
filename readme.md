@@ -1,12 +1,142 @@
 # MakePlans Changelog
 
+2026-11-03
+
+* Passes, subscriptions, gift cards and coupons are now tabs under Orders. Agenda queues are now tabs in the agenda.
+
+2026-11-02
+
+* Booking site settings are now split into separate pages: Design, Forms, General, Rules and Texts.
+
+* If a booking is removed, expires or loses its slot while the customer pays in the Vipps app, the payment is now cancelled and the customer is not charged.
+
+2026-11-01
+
+* Added a terms page to the booking site, linked from the footer in all themes.
+
+2026-10-30
+
+* Booking CSV exports now include fields from the public booking form and service booking forms.
+
+* Fix bug with the webhooks status indicator on the developer page.
+
+2026-10-29
+
+* Added daily workload: give services workload points and set a daily maximum per resource. The limit applies to bookings from the booking site, not bookings made in the administration system.
+
+* Logos can now be uploaded in WEBP format.
+
+2026-10-28
+
+* Added two-way SMS: customers can reply to SMS when you use a phone number as sender, and you answer from the chat page.
+
+2026-10-25
+
+* Fix bug where validation errors were not shown when adding a customer from the booking or gift card form in the administration system.
+
+2026-10-22
+
+* Fix bug where customers paying for a confirmed booking with the order flow enabled were sent to the front page instead of the payment.
+
+* Amsterdam theme: customers are now sent to Vipps or ID-porten login before the booking form when verification is required.
+
+2026-10-19
+
+* Prevent duplicate Vipps payment requests on double submit.
+
+2026-10-11
+
+* Added passes and subscriptions: sell them on the booking site, and customers pay for bookings with them at checkout. Customers see them on their profile. Subscriptions are used before passes.
+
+2026-10-07
+
+* Slots with no capacity on the booking site now show "Fully booked" or "Waitlist" instead of "0 available", and past slots show "Past". The texts can be customized in the booking site settings.
+
+2026-09-25
+
+* Improved the agenda list with day, week and month navigation, queues for waitlist and unconfirmed bookings, and feeds for latest changes and new reservations. Waitlisted bookings can be promoted or removed directly from the queue.
+
+* Your profile and logout are now in a menu under your avatar in the header.
+
+2026-09-23
+
+* Added WhatsApp: connect your Meta business account, send messages using templates that are submitted to Meta automatically, and chat with customers.
+
+* Fix crash on booking pages when the customer has been deleted.
+
+2026-09-17
+
+* Added booking ratings: include a rating link in a follow-up message and customers can rate the booking on a scale you choose, from 1-2 up to 1-10. Ratings are shown on the booking, in reports and in the API.
+
+2026-09-15
+
+* Zoom meetings and Whereby rooms are now removed when a booking is cancelled or deleted, so old join links stop working.
+
+* Added an MCP page under Developer settings with your endpoint and setup instructions.
+
+2026-09-13
+
+* Added reports for utilization, no-shows, events and timing. Time-series reports can now be shown per day, week or month.
+
+2026-09-12
+
+* Added dark mode to the administration system, with a setting per user.
+
+* Added availability, signup, login and purchase events for Google Tag Manager and Google Analytics on the booking site.
+
+2026-09-10
+
+* Custom text can now be added to the declined booking SMS.
+
+2026-09-08
+
+* Added week view to the Timisoara theme.
+
+2026-09-04
+
+* The event week calendar in the Timisoara theme now shows free capacity when enabled on the service, and the legend lists only bookable services.
+
+2026-09-02
+
+* Added a booking state filter to the agenda, so declined and cancelled bookings can be found. Also added `/bookings/declined` and `/bookings/cancelled` to the API.
+
+2026-09-01
+
+* Added reports: overview, bookings, revenue, resources, services and customers, with filters, comparison with the previous period, and CSV and JSON export.
+
+2026-08-31
+
+* Added customer history: visits, no-shows and total paid are shown on the booking, in the calendar and on the customer page. You can also get a warning when a customer reaches a set number of no-shows.
+
+2026-08-26
+
+* Added custom data for the account: define an account form under Setup and use the values in Liquid templates and the API.
+
+2026-08-25
+
+* Replaced Google reCAPTCHA with ALTCHA, which is self-hosted and sends no customer data to a third party.
+
+2026-08-19
+
+* The opening hours panel in the calendar can now be scoped to a service or resource.
+
+2026-08-17
+
+* Added week calendar for events in the Timisoara theme.
+
+2026-08-16
+
+* The booking confirmation now shows the client address as a Google Maps link.
+
+* Added website to the account settings.
+
 2026-08-15
 
 * Added MCP server: connect AI assistants such as Claude to MakePlans to find available slots, create and manage bookings, and look up customers.
 
 2026-08-14
 
-* The booking form in manage now uses the custom booking form for the selected service.
+* The booking form in the administration system now uses the custom booking form for the selected service.
 
 2026-08-13
 
@@ -14,7 +144,7 @@
 
 2026-08-12
 
-* Added waitlist for events: customers can join a waitlist when an event is fully booked and get notified when a spot becomes available. Waitlisted attendees are shown on the event page in manage.
+* Added waitlist for events: customers can join a waitlist when an event is fully booked and get notified when a spot becomes available. Waitlisted attendees are shown on the event page.
 
 2026-08-10
 
@@ -44,7 +174,7 @@
 
 2026-07-03
 
-* Upgraded the calendar in manage with improved design and mobile support.
+* Upgraded the calendar with improved design and mobile support.
 
 * Resource colors are now shown in the calendar filter dropdown.
 
@@ -78,7 +208,7 @@
 
 2026-04-30
 
-* Existing customers can now be linked as children to another customer in manage.
+* Existing customers can now be linked as children to another customer.
 
 2026-04-12
 
